@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "go run main.go",
+    "build": "tsc && cp index.html dist/index.html && cp sheet-music.xml dist/sheet-music.xml && cp -r static/ dist/static && webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "opensheetmusicdisplay": "^1.7.5",
+    "opensheetmusicdisplay": "^1.7.5"
+  },
+  "devDependencies": {
     "ts-loader": "^9.4.2",
     "typescript": "^5.0.2",
     "webpack": "^5.76.3",
