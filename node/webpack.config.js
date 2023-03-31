@@ -1,22 +1,39 @@
-module.exports = {
-    entry: "./src/index.ts",
-    
-    module: {
-        rules: [
-            {
-            test: /\.tsx?$/,
-            use: "ts-loader",
-            exclude: /node_modules/,
-            },
-        ],
-    },
-    
-    resolve: {
-        extensions: [".tsx", ".ts", ".js"],
-    },
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 
-    output: {
-        filename: "bundle.js",
-        path: __dirname + "/dist",
-    },
+const config = {
+  entry: './src/index.ts',
+  mode: 'production',
+  devtool: 'inline-source-map',
+  output: {
+    path: __dirname + '/dist',
+    filename: 'index.bundle.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.json$/,
+        use: 'json-loader'
+      },
+      {
+        test: /\.ts$/,
+        use: 'ts-loader'
+      }
+    ]
+  },
+  plugins: [
+  new HtmlWebpackPlugin({
+    title: 'opensheetmusicdisplay | webpack-usage-example',
+    favicon: 'resources/favicon.ico' // not providing a favicon.ico can cause 404 warnings
+  }),
+  new CopyWebpackPlugin([
+  {
+    from: 'resources/MuzioClementi_SonatinaOpus36No1_Part1.xml',
+    to: 'musicXmlSample.xml'
+  },
+  ])
+  ]
 };
+
+module.exports = config;
