@@ -4,23 +4,34 @@
 
 Website for the Orchestral Simping Project (WIP).
 
-- Motivation for project
+The Orchestral Simping Project aims to set a new standard for VTuber-inspired orchestrations and arrangements.
 
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The project is based on arranging melodies in 3 categories:
+
+- VTuber-original: e.g. Shiny Smily Story (Hololive), Diamond City Lights (Nijisanji EN)
+- VTuber-associated: e.g. Ochame Kinou / Fukkireta chorus, stream BGMs by other composers
+- Original compositions
+
+Other motivations:
+
+- To learn the basics of web development
+- To justify the domains I bought XD
+  - Note: holo.simphony.moe and niji.simphony.moe will redirect to orchestralsimp.moe/hololive and orchestralsimp.moe/nijisanji respectively
 
 ## Table of Contents
 
-- [Installation](#installation)
-    - [Prerequisites](#prerequisites)
+- [orchestralsimp.moe](#orchestralsimpmoe)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+    - [Prerequisites:](#prerequisites)
     - [Install](#install)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Features](#features)
-    - [List of Features](#featureslist)
-    - [List of Planned Features](#plannedfeatures)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Features](#features)
+    - [List of Features (Current)](#list-of-features-current)
+    - [List of Planned Features](#list-of-planned-features)
 
 ## Installation
 
