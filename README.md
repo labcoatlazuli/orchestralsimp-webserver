@@ -56,11 +56,11 @@ Acknowledgements:
 - Display sheet music using OSMD
 
 ### List of Planned Features
-[] Implement backend DB to hold content until requested 
-[] Playback audio alongisde score
+- [ ] Implement backend DB to hold content until requested 
+- [ ] Playback audio alongisde score
     - Sync audio to play marker
-[] Inline interactive comments accessible in the score in sideview panel
-[] Interactive timeline to display project and file history
-[] Provide file downloads
+- [ ] Inline interactive comments accessible in the score in sideview panel
+- [ ] Interactive timeline to display project and file history
+- [ ] Provide file downloads
 
 
