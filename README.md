@@ -2,9 +2,10 @@
 
 ## Description
 
-Webserver for the Orchestral Simping Project website WIP.
+Website for the Orchestral Simping Project (WIP).
 
-- What was your motivation?
+- Motivation for project
+
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?
 - What did you learn?
@@ -51,7 +52,15 @@ Acknowledgements:
 
 ## Features
 
-### List of Features
+### List of Features (Current)
+- Display sheet music using OSMD
 
 ### List of Planned Features
+[] Implement backend DB to hold content until requested 
+[] Playback audio alongisde score
+    - Sync audio to play marker
+[] Inline interactive comments accessible in the score in sideview panel
+[] Interactive timeline to display project and file history
+[] Provide file downloads
+
 
