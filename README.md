@@ -41,8 +41,8 @@ Other motivations:
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ### Install
+- `cd node`
 - `npm install`
-- `npm run build`
 
 ## Usage
 
