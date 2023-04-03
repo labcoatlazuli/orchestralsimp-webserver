@@ -2,13 +2,14 @@ package main
 
 import (
 	"net/http"
+	"log"
 )
 
 func main()  {
 
 	fs := http.FileServer(http.Dir("../node/dist/"))
 
-	http.Handle("../node/dist/", http.StripPrefix("../node/dist/", fs))
+	http.Handle("/", fs)
 
-	http.ListenAndServe(":8080", nil)
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
