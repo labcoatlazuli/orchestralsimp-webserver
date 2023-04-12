@@ -1,4 +1,4 @@
-#  orchestralsimp.moe
+# orchestralsimp.moe
 
 ## Description
 
@@ -24,7 +24,7 @@ Other motivations:
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
-    - [Prerequisites:](#prerequisites)
+    - [Prerequisites](#prerequisites)
     - [Install](#install)
   - [Usage](#usage)
   - [Credits](#credits)
@@ -35,12 +35,14 @@ Other motivations:
 
 ## Installation
 
-### Prerequisites:
+### Prerequisites
+
 - [Go](https://go.dev/doc/install)
 - [NodeJS](https://nodejs.org/en/download)
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ### Install
+
 - `cd node`
 - `npm install`
 
@@ -54,24 +56,25 @@ Other motivations:
 Created by Saltmaster.
 
 Acknowledgements:
+
 - supinie
 - b177y
 
 ## License
 
-<ADD LICENSE>
+MIT General License
 
 ## Features
 
 ### List of Features (Current)
+
 - Display sheet music using OSMD
 
 ### List of Planned Features
-- [ ] Implement backend DB to hold content until requested 
+
+- [ ] Implement backend DB to hold content until requested
 - [ ] Playback audio alongisde score
-    - Sync audio to play marker
+  - Sync audio to play marker
 - [ ] Inline interactive comments accessible in the score in sideview panel
 - [ ] Interactive timeline to display project and file history
 - [ ] Provide file downloads
-
-
